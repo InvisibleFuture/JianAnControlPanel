@@ -1,0 +1,23 @@
+.table_satori
+    width:100%
+    text-align:center
+    border-collapse: collapse
+    border-spacing: 2px
+.table_satori thead tr th
+    border: none
+    padding: .5rem 0
+    color: #555
+    background: linear-gradient(#ffffff, #e3e3e3)
+    font-weight: 400
+    font-size: 14px
+.table_satori tbody tr:nth-of-type(odd)
+    background-color: rgba(0,0,0,.025)
+.table_satori tbody tr td
+    border: none
+    padding: .5rem 0
+    font-weight: 400
+    font-size: 14px
+
+.table_satori tbody tr td:not(:first-child), .table_satori thead tr th:not(:first-child){
+    border-left: 1px solid #ddd
+}
